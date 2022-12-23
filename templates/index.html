@@ -15,9 +15,10 @@
                         <div class="image-container">
                             {% if "placeholder" in post.featured_image.url %}
                             <img class="card-img-top"
-                                src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwVf2cq-fDBoJC6LgKYM1pkkFE1tCx4L8-9w&usqp=CAU'>
+                                src='https://images.pexels.com/photos/3601081/pexels-photo-3601081.jpeg?auto=compress&cs=tinysrgb&w=800'>
                             {% else %}
-                            <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                            <img class="card-img-top" 
+                                src="">
                             {% endif %}
                             <div class="image-flash">
                                 <p class="author">Author: {{ post.author }}</p>

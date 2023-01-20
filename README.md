@@ -45,7 +45,7 @@ Topic groupings/categories
 ## Testing
 - Testing Views
 - Testing Forms
-- Testing Authorization, commenting , Likes
+- Testing Authorization, Commenting , Likes
 
 
 
